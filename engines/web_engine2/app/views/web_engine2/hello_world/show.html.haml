@@ -1,0 +1,28 @@
+.row
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        .nav-collapse
+          %ul.nav
+            %li
+              %a{href: "/"}
+                Home
+.row{style: 'margin-top: 40px'}
+  .span12.offset4
+    %h3 Hi. This is engine no. 2
+
+    %p Looks nicer... maybe.
+
+.row{style: 'margin-top: 40px'}
+  .span12.offset4
+    %p Ah... we shouldn't forget a good quote:
+
+    = CommonStuff::QuoteOfTheDay.quote
+
+.row{style: 'margin-top: 40px'}
+  .span12.offset4
+    This engine uses:
+    %ul
+      %li Haml
+      %li twitter bootstrap
+      %li the unbuilt common stuff gem
