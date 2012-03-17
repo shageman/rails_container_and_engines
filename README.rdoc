@@ -2,6 +2,10 @@
 
 This repository holds a sample Rails application that make use of unbuilt Rails engines to deliver its functionality.
 
+== Running the application
+
+Nothing special here: simply `rails s` in the root of the project and visit http://localhost:3000.
+
 == Running tests
 
 Run tests with `rake` in the root folder of any of the engines or the main app.
