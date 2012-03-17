@@ -2,6 +2,11 @@
 
 This repository holds a sample Rails application that make use of unbuilt Rails engines to deliver its functionality.
 
+== Running tests
+
+Run tests with `rake` in the root folder of any of the engines or the main app.
+Run all test suites by running `./test_all.sh`
+
 == License
 
 Copyright (c) Stephan Hagemann
