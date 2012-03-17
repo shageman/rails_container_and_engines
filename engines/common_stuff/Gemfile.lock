@@ -1,13 +1,6 @@
 PATH
   remote: .
   specs:
-    web_engine1 (0.0.1)
-      common_stuff
-      rails (~> 3.2.2)
-
-PATH
-  remote: ../common_stuff
-  specs:
     common_stuff (0.0.1)
       rails (~> 3.2.2)
       rumi
@@ -104,4 +97,3 @@ DEPENDENCIES
   common_stuff!
   jquery-rails
   sqlite3
-  web_engine1!
