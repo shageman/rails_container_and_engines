@@ -1,15 +1,6 @@
 == Welcome to Application suites with Rails
 
-This repository holds a sample Rails application that make use of unbuilt Rails engines to deliver its functionality.
-
-== Running the application
-
-Nothing special here: simply `rails s` in the root of the project and visit http://localhost:3000.
-
-== Running tests
-
-Run tests with `rake` in the root folder of any of the engines or the main app.
-Run all test suites by running `./test_all.sh`
+I have stopped active development of this sample app in favor of https://github.com/shageman/the_next_big_thing. Please check there for the same ideas in a better shell!
 
 == License
 
